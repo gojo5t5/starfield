@@ -4,7 +4,7 @@ let angle = angle_speed = 0, speed = 1;
 let stars_number = (width > height) ? width * 2 : height * 2;
 
 function setup() {
-	createCanvas(width,height);
+	createCanvas(width, height);
 	for(let i = 0; i < stars_number; i++){
 		stars[i] = new Star();
 	}
