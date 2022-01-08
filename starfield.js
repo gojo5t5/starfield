@@ -1,4 +1,4 @@
-let width = screen.width, height = screen.height;
+let width = document.body.clientWidth, height = document.body.clientHeight;
 let stars = [];
 let angle = angle_speed = 0, speed = 1;
 let stars_number = (width > height) ? width * 2 : height * 2;
